@@ -1,0 +1,25 @@
+{
+  "id": "9551e535-54b8-4cd1-b4f9-9e993f349b93",
+  "version": "2.0",
+  "name": "Fcaebook Test",
+  "url": "https://www.facebook.com/",
+  "tests": [{
+    "id": "08a77a4c-d7ac-4b52-aced-20762538faf4",
+    "name": "Facebook Test",
+    "commands": []
+  }, {
+    "id": "02ff2383-d378-4272-b5b6-b80ea8f282d5",
+    "name": "Wrong Username/Password",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "acf7d9d3-79d6-4943-9296-48a08450cf25",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["08a77a4c-d7ac-4b52-aced-20762538faf4"]
+  }],
+  "urls": [],
+  "plugins": []
+}
